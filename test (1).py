@@ -32,4 +32,3 @@ sc.parallelize(range(0, 1)).map(lambda x: foo()).collect()
 
 # doesn't work
 spark.read.format("csv").load("file:/Workspace/Repos/kahing.cheung@databricks.com/mlflow-example/wine-quality.csv").collect()
-
